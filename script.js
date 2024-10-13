@@ -4,16 +4,16 @@ let desejaContinuar = true
 
 function executarPrograma() {
     console.log(`
-        ||============= Menu ===============||
-        || [1] - menor que 1000 - Ferro     ||
-        || [2] - entre 10001 e 2000 - Prata ||
-        || [3] - entre 20001 e 5000         ||
-        || [4] - entre 50001 e 7000         ||
-        || [5] - entre 70001 e 8000         ||
-        || [6] - entre 80001 e 9000         ||
-        || [7] - entre 90001 e 10000        ||
-        || [8] - maior ou igual a 10001     ||
-        ||==================================||
+    ||============= Menu ===============||
+    || [1] - menor que 1000 - Ferro     ||
+    || [2] - entre 10001 e 2000 - Prata ||
+    || [3] - entre 20001 e 5000         ||
+    || [4] - entre 50001 e 7000         ||
+    || [5] - entre 70001 e 8000         ||
+    || [6] - entre 80001 e 9000         ||
+    || [7] - entre 90001 e 10000        ||
+    || [8] - maior ou igual a 10001     ||
+    ||==================================||
         `)
         
         const nome = readLineSync.question('Digite o nome do personagem: ')
